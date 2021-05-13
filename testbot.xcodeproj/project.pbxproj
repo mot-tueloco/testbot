@@ -12,7 +12,6 @@
 		C49CEC291BEF576000DAAA7F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49CEC281BEF576000DAAA7F /* ViewController.m */; };
 		C49CEC2C1BEF576000DAAA7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49CEC2A1BEF576000DAAA7F /* Main.storyboard */; };
 		C49CEC2E1BEF576000DAAA7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49CEC2D1BEF576000DAAA7F /* Assets.xcassets */; };
-		C49CEC311BEF576000DAAA7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49CEC2F1BEF576000DAAA7F /* LaunchScreen.storyboard */; };
 		C49CEC3C1BEF576000DAAA7F /* testbotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49CEC3B1BEF576000DAAA7F /* testbotTests.m */; };
 		C49CEC471BEF576000DAAA7F /* testbotUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49CEC461BEF576000DAAA7F /* testbotUITests.m */; };
 /* End PBXBuildFile section */
@@ -43,7 +42,6 @@
 		C49CEC281BEF576000DAAA7F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C49CEC2B1BEF576000DAAA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C49CEC2D1BEF576000DAAA7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C49CEC301BEF576000DAAA7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C49CEC321BEF576000DAAA7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C49CEC371BEF576000DAAA7F /* testbotTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testbotTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C49CEC3B1BEF576000DAAA7F /* testbotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testbotTests.m; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 				C49CEC281BEF576000DAAA7F /* ViewController.m */,
 				C49CEC2A1BEF576000DAAA7F /* Main.storyboard */,
 				C49CEC2D1BEF576000DAAA7F /* Assets.xcassets */,
-				C49CEC2F1BEF576000DAAA7F /* LaunchScreen.storyboard */,
 				C49CEC321BEF576000DAAA7F /* Info.plist */,
 				C49CEC211BEF576000DAAA7F /* Supporting Files */,
 			);
@@ -241,7 +238,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C49CEC311BEF576000DAAA7F /* LaunchScreen.storyboard in Resources */,
 				C49CEC2E1BEF576000DAAA7F /* Assets.xcassets in Resources */,
 				C49CEC2C1BEF576000DAAA7F /* Main.storyboard in Resources */,
 			);
@@ -314,14 +310,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		C49CEC2F1BEF576000DAAA7F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C49CEC301BEF576000DAAA7F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -342,8 +330,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Xiaobo Yang (68UZRH7NU6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xiaobo Yang (68UZRH7NU6)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -365,7 +353,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "e49c3e09-8fef-4856-954a-9e4dfad56dd6";
+				PROVISIONING_PROFILE = "282bc1f0-24a1-4b5c-890a-7a5c20a9e386";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -388,8 +376,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Xiaobo Yang (68UZRH7NU6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xiaobo Yang (68UZRH7NU6)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -404,7 +392,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "e49c3e09-8fef-4856-954a-9e4dfad56dd6";
+				PROVISIONING_PROFILE = "282bc1f0-24a1-4b5c-890a-7a5c20a9e386";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -415,14 +403,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Xiaobo Yang (68UZRH7NU6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xiaobo Yang (68UZRH7NU6)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = testbot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.duan.bottest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "856e6975-a072-409d-b57e-44e085bdebb3";
+				PROVISIONING_PROFILE = "282bc1f0-24a1-4b5c-890a-7a5c20a9e386";
 			};
 			name = Debug;
 		};
@@ -430,14 +418,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Xiaobo Yang (68UZRH7NU6)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Xiaobo Yang (68UZRH7NU6)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				INFOPLIST_FILE = testbot/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.duan.bottest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "856e6975-a072-409d-b57e-44e085bdebb3";
+				PROVISIONING_PROFILE = "282bc1f0-24a1-4b5c-890a-7a5c20a9e386";
 			};
 			name = Release;
 		};
